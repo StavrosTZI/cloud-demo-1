@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import UserForm from './components/UserForm';
 import Success from './components/Success';

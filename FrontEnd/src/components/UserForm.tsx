@@ -34,7 +34,7 @@ function UserForm() {
       navigate('/success');
     } catch (error) {
       console.error('Error creating profile:', error);
-      alert('Failed to create profile. Please try again.');
+      alert('Failed to create your profile. Please try again in a bit.');
     } finally {
       setLoading(false);
     }
